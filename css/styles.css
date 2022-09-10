@@ -1,0 +1,190 @@
+:root{
+    /*Text colors*/
+    --main-txt-cl:#212121;
+    --secondary-txt-cl: #757575;
+    --light-txt-cl: #FFFFFF;
+    --accent-txt-cl: #2196F3;
+    /*Background colors*/
+    --main-bg-cl:#ffffff;
+    --accent-bg-cl:#2196F3;
+    /*Fonts*/
+    --main-font:"Roboto", sans-serif;
+    --secondary-font: "Raleway", sans-serif;
+}
+body{
+    color: var(--main-txt-cl);
+    background-color: var(--main-bg-cl);
+    font-family: var(--main-font);
+
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+.link,.body-logo, .footer-logo, .mail,.tel {
+    text-decoration: none;
+    color: currentColor;
+}
+.list {
+    list-style: none;
+}
+/*Header*/
+    .body-logo{
+        font-family: var(--secondary-font);
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+    }
+    .body-logo-web{
+        color: var(--accent-txt-cl);
+}
+    .header .link,
+    .header .mail,
+    .header .tel
+{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: calc(16/12);
+        letter-spacing: 0.02em;
+        color: var(--main-txt-cl)
+    }
+    .header .link:hover,
+    .header .link:focus,
+    .mail:hover,
+    .mail:focus,
+    .tel:hover,
+    .tel:focus
+{
+        font-weight: 500;
+        color: var(--accent-txt-cl)}
+        
+    /*Main section*/
+    .main-group{
+        background-color: #2F303A;
+    }
+    .main-title {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: calc(60/44);
+        text-transform: uppercase;
+        color: var(--light-txt-cl);
+        background-color: #2F303A;
+    }
+    
+    .main-btn {
+        font-family: inherit;
+        color: #ffffff;
+        background-color: transparent;
+        cursor: pointer;
+    }
+    .main-btn:hover,
+    .main-btn:focus {
+        background-color: #2196F3;
+    }
+    /*Features section*/
+    .features-list-item {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: calc(16/14);
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    }
+    .features-description {
+        text-transform: none;
+        font-size: 14px;
+        line-height: calc(24/14);
+        letter-spacing: 0.03em;
+        color: var(--secondary-txt-cl)
+    }
+    /*Чим ми займаємося business-section*/
+    .business-section-description{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: calc(42/36);
+        text-align: center;
+        letter-spacing: 0.03em;
+    }
+    /*Наша команда team section*/
+    .team-section-title{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: calc(19/16);
+        text-align: center;
+        letter-spacing: 0.03em;  
+    }
+    .team-section-undertitle {
+        font-size: 16px;
+        line-height: calc(19/16);
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--secondary-txt-cl)
+    }
+    /*Footer*/
+    .footer{
+        background-color: #2F303A;
+    }
+    .footer-logo{
+        font-family:var(--secondary-font);
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+    }
+    .logo-web{
+        color: var(--accent-txt-cl);
+    }
+    .footer-list{
+        list-style: none;
+    }
+    .footer-link{
+        font-size: 14px;
+        line-height: calc(24/14);
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+    }
+    .footer-link:hover,
+    .footer-link:focus{
+        color: var(--light-txt-cl);
+    }
+
+    .btn{
+        font-family: inherit;
+        background-color: #F5F4FA;
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: calc(26/16);
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--main-txt-cl);
+    }
+    .btn:hover,
+    .btn:focus{
+        color: var(--light-txt-cl);
+        background-color: var(--accent-bg-cl);
+    }
+    
+    /*Projects sections*/
+    .projects-title {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: calc(36/18);
+        letter-spacing: 0.06em;
+        color: var(--main-txt-cl)
+    }
+    .projects-undertitle {
+        font-size: 16px;
+        line-height: calc(30/16);
+        letter-spacing: 0.03em;
+        color: var(--secondary-txt-cl);
+    }
