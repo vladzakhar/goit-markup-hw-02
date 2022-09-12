@@ -15,7 +15,10 @@ body{
     color: var(--main-txt-cl);
     background-color: var(--main-bg-cl);
     font-family: var(--main-font);
-
+    
+}
+.list{
+    list-style: none;
 }
 .visually-hidden {
     position: absolute;
@@ -32,10 +35,9 @@ body{
 .link,.body-logo, .footer-logo, .mail,.tel,.current {
     text-decoration: none;
     color: currentColor;
+   
 }
-.list {
-    list-style: none;
-}
+
 /*Header*/
     .body-logo{
         font-family: var(--secondary-font);
@@ -46,7 +48,7 @@ body{
     }
     .body-logo-web{
         color: var(--accent-txt-cl);
-        
+       
 }
     .header .link
 {
@@ -112,6 +114,21 @@ body{
         background-color: #188ce8;
     }
     /*Features section*/
+    .visually-hidden {
+        position: absolute;
+          white-space: nowrap;
+          width: 1px;
+          height: 1px;
+          overflow: hidden;
+          border: 0;
+          padding: 0;
+          clip: rect(0 0 0 0);
+          clip-path: inset(50%);
+          margin: -1px;
+      } 
+      .features-list{
+        list-style: none;
+      }
     .features-list-item {
         font-weight: 700;
         font-size: 14px;
